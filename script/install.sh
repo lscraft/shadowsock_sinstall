@@ -42,6 +42,3 @@ cat >/etc/shadowsocks.json <<EOF
     "workers": 1
 }
 EOF
-python server.py -c /etc/shadowsocks.json
-echo "Now, install serverSpeeder"
-wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh && bash serverspeeder-all.sh
