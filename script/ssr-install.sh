@@ -9,7 +9,7 @@ ldconfig
 cd ~
 git clone -b manyuser https://github.com/breakwa11/shadowsocks.git
 cd shadowsocks/shadowsocks
-read -p "Your port(default is 9000)" port1
+read -p "Your port(default is 443)" port1
 read -p "method(default is rc4-md5)" med
 if [ "$med" == "" ]; then
 med="rc4-md5"
