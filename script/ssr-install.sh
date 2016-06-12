@@ -34,7 +34,7 @@ cat >/etc/shadowsocks.json <<EOF
     "method": "$med",
     "protocol": "auth_sha1_compatible",
     "protocol_param": "",
-    "obfs": "tls1.2_ticket_auth_compatible",
+    "obfs": "tls1.0_session_auth_compatible",
     "obfs_param": "",
     "redirect": "",
     "dns_ipv6": false,
